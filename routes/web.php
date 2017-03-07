@@ -18,3 +18,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::get('/gererFrais','FraisController@index');
+
+Route::get('/saisirFrais', 'FraisController@ajout');
